@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./icons/css/all.css">
     <link rel="stylesheet" href="./css/main.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <title>Document</title>
 </head>
 <body>
@@ -1154,6 +1155,97 @@
                 </div>
             </div>
         </header>
+        <div class="category">
+            <div>
+                <a href="#">
+                    <div><img src="./images/category/1.jpeg" alt="خرید عیدی"></div>
+                    <p>خرید عیدی</p>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <div><img src="./images/category/2.jpeg" alt="خونه تکونی"></div>
+                    <p>خونه تکونی</p>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <div><img src="./images/category/3.jpeg" alt="شامپو"></div>
+                    <p>شامپو</p>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <div><img src="./images/category/4.jpeg" alt="سوپرمارکت"></div>
+                    <p>سوپرمارکت</p>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <div><img src="./images/category/5.jpeg" alt="ضد چروک"></div>
+                    <p>ضد چروک</p>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <div><img src="./images/category/6.jpeg" alt="عطر"></div>
+                    <p>عطر</p>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <div><img src="./images/category/7.jpeg" alt="ارسال فوری"></div>
+                    <p>ارسال فوری</p>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <div><img src="./images/category/8.jpeg" alt="کارت هدیه"></div>
+                    <p>کارت هدیه</p>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <div><img src="./images/category/9.jpeg" alt="برترین‌ها"></div>
+                    <p>برترین‌ها</p>
+                </a>
+            </div>
+        </div>
+        <div class="slider-avval">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><a href="#"><img src="./images/slider-avval/1.webp" alt="دیجیکالا"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="./images/slider-avval/2.webp" alt="دیجیکالا"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="./images/slider-avval/3.webp" alt="دیجیکالا"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="./images/slider-avval/4.webp" alt="دیجیکالا"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="./images/slider-avval/5.webp" alt="دیجیکالا"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="./images/slider-avval/6.webp" alt="دیجیکالا"></a></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </div>
+        <div></div>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
 </body>
 </html>

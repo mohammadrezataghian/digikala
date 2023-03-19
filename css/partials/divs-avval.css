@@ -1,0 +1,70 @@
+/* start div avval */
+main>div.category{
+    width: 100%;
+    height: 148px;
+    /* background-color: aqua; */
+    text-align: center;
+}
+main>div.category>div{
+    display: inline-block;
+    width: 85px;
+    height: 115px;
+    margin: 0 30px;
+    transform: translateY(20px);
+}
+main>div.category>div>a{
+    text-decoration: none;
+}
+main>div.category>div>a>div{
+    border-radius: 50%;
+    border: 2px solid red;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+main>div.category>div>a>p{
+    color: #333333;
+    margin-top: 5px;
+    font-size: 14px;
+}   
+main>div.category>div>a>div>img{
+border-radius: 50%;
+width: 70px;
+height: 70px;
+display: block;
+position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-60%,-50%);
+}
+/* end div avval */
+
+/* start slider avval */
+main>div.slider-avval{
+    width: 100%;
+    height: 400px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* end slider avval */
+
+  /* start div dovvom */

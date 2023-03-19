@@ -14,7 +14,7 @@ header>div.header-1>div.logo-digikala>svg{
     left: calc(28% - 115px / 2);
 }
 header>div.header-1>div.search{
-    width: 1160px;
+    width: 650px;
     height: inherit;
     float: right;
 }
