@@ -183,6 +183,8 @@ div.header-2>div.menu>nav>ul>li>div.mega-menu{
     height: 80vh;
     width: 95vw;
     display: none;
+    z-index: 123;
+    background-color: white;
 }
 div.header-2>div.menu>nav>ul>li:hover>div.mega-menu{
     display: block;

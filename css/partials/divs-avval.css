@@ -67,4 +67,40 @@ main>div.slider-avval{
   }
   /* end slider avval */
 
-  /* start div dovvom */
+  /* start category dovvom */
+main>div.category-dovvom{
+    width: 100%;
+    height: 145px;
+    text-align: center;
+    /* background-color: yellow; */
+}
+main>div.category-dovvom>div{
+    display: inline-block;
+    width: 118px;
+    height: 80px;
+    margin: 0 20px;
+    transform: translateY(30%);
+}
+main>div.category-dovvom>div>a{
+    text-decoration: none;
+}
+main>div.category-dovvom>div>a>div{
+    width: 52px;
+    height: 52px;
+    margin: 0 auto;
+}
+main>div.category-dovvom>div>a>div>img{
+    width: 52px;
+    height: 52px;
+    display: block;
+}
+main>div.category-dovvom>div>a>p{
+    font-size: 12px;
+    transform: translateY(5px);
+    color: #3F4064;
+}
+main>div.category-dovvom>div>a>div>img.gerd{
+    background-color: #F1F2F4;
+    border-radius: 50%;
+}
+/* end category dovvom */
