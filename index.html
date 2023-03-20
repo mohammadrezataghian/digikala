@@ -1240,14 +1240,52 @@
                 <div><a href="#"><div><img class="gerd" src="./images/category-dovvom/8.png" alt="بیشتر"></div><p>بیشتر</p></a></div>
             
         </div>
-        <div>
-            
+        <div class="slider-dovvom container">
+            <a href="#">
+            <div class="rast">
+                <div class="one">
+                    <img src="./images/slider-dovvom/Amazings.svg" alt="پیشنهاد شگفت انگیز">
+                </div>
+                <div class="two"><img src="./images/slider-dovvom/box.png" alt="پیشنهاد شگفت انگیز"></div>
+                <div class="three"><span>مشاهده همه</span></div>
+            </div></a>
+            <div class="chap">
+                <a href="#">
+                <div class="swiper slider-second">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div>
+                            <img src="./images/slider-dovvom/3.webp" alt="">
+                        </div>
+                            <div>
+                                <div><span>۳۹٪</span></div>
+                                <div>
+                                    <span>۳,۱۹۰,۰۰۰</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span>۵,۲۰۰,۰۰۰</span>
+                            </div>
+                        </div>
+                      <div class="swiper-slide"></div>
+                      <div class="swiper-slide"></div>
+                      <div class="swiper-slide"></div>
+                      <div class="swiper-slide"></div>
+                      <div class="swiper-slide"></div>
+                      <div class="swiper-slide"></div>
+                      <div class="swiper-slide"></div>
+                      <div class="swiper-slide"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </a>
+            </div>
         </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script>
         var swiper = new Swiper(".mySwiper", {
-          spaceBetween: 30,
+          spaceBetween: 0,
           centeredSlides: true,
           autoplay: {
             delay: 5000,
@@ -1260,6 +1298,34 @@
           navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+      <script>
+        var swiper = new Swiper(".slider-second", {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          pagination: {
+            // el: ".swiper-pagination",
+            clickable: true,
+          },
+          breakpoints: {
+            "@0.00": {
+              slidesPerView: 1,
+              spaceBetween: 2,
+            },
+            "@0.75": {
+              slidesPerView: 2,
+              spaceBetween: 2,
+            },
+            "@1.00": {
+              slidesPerView: 3,
+              spaceBetween: 2,
+            },
+            "@1.50": {
+              slidesPerView: 4,
+              spaceBetween: 2,
+            },
           },
         });
       </script>

@@ -16,3 +16,8 @@
 body{
     font-family: iranyekan;
 }
+.container{
+    width: 1304px;
+    margin: 0 auto;
+    border-radius: 15px;
+}

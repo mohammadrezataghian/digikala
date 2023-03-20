@@ -104,3 +104,106 @@ main>div.category-dovvom>div>a>div>img.gerd{
     border-radius: 50%;
 }
 /* end category dovvom */
+
+/* start slider dovvom */
+main>div.slider-dovvom{
+    height: 286px;
+    background-color: #EF394E;
+}
+main>div.slider-dovvom>a{
+    text-decoration: none;
+}
+main>div.slider-dovvom>a>div.rast{
+    height: 246px;
+    width: 145px;
+    /* display: inline-block; */
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+main>div.slider-dovvom>div.chap{
+    height: 246px;
+    width: 1130px;
+    /* display: inline-block; */
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+main>div.slider-dovvom>div.chap>a{
+    text-decoration: none;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+ div.chap .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    width: 182px !important;
+    height: 246px !important;
+  }
+  div.chap .swiper-slide:nth-child(1){
+    width: 150px;
+    height: 150px;
+  }
+  div.chap .swiper-slide:nth-child(1)>:nth-child(1){
+    margin: 0 15px;
+  }  
+  div.chap .swiper-slide:nth-child(1)>:nth-child(1)>img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 10px;
+  }
+  div.chap .swiper-slide:nth-child(1)>:nth-child(2){
+    width: 150px;
+    height: 34px;
+    margin-top: 10px;
+    background-color: yellow;
+  }
+  div.chap .swiper-slide:nth-child(1)>:nth-child(2)>:nth-child(1){
+    
+  }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  main>div.slider-dovvom>a>div.rast>div.one{
+    height: 75px;
+    width: 75px;
+    margin-right: 50px;
+    margin-top: 5px;
+  }
+  main>div.slider-dovvom>a>div.rast>div.one>img{
+    height: 75px;
+    width: 75px;
+  }
+  main>div.slider-dovvom>a>div.rast>div.two{
+    height: 120px;
+    width: 135px;
+    margin-top: 10px;
+  }
+  main>div.slider-dovvom>a>div.rast>div.two>img{
+    height: 120px;
+    width: 135px;
+    margin-right: 20px;
+  }
+  main>div.slider-dovvom>a>div.rast>div.three{
+    margin-right: 15px;
+    text-align: center;
+    margin-top: 5px;
+  }
+  main>div.slider-dovvom>a>div.rast>div.three>span{
+    color: white;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: bold;
+  }
