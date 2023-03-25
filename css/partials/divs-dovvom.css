@@ -1,0 +1,176 @@
+main>div.panjomi{
+    height: 110px;
+    background-color: #EDF0EF;
+    margin-top: 8px;
+    background-image: url(../../images/div-panjomi/freshPattern.svg);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+main>div.panjomi>a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+main>div.panjomi>a>div:nth-of-type(1){
+    width: 600px;
+    height: 62px;
+    /* background-color: coral; */
+    float: right;
+    text-align: center;
+    transform: translateY(25px);
+}
+main>div.panjomi>a>div:nth-of-type(1)>div:nth-of-type(1){
+    display: inline-block;
+    /* background-color: red; */
+    width: 68px;
+    height: 62px;
+    margin: 0 20px;
+}
+main>div.panjomi>a>div:nth-of-type(1)>div:nth-of-type(1)>img{
+    width: 68px;
+    height: 62px;
+}
+main>div.panjomi>a>div:nth-of-type(1)>div:nth-of-type(2){
+    display: inline-block;
+    vertical-align: top;
+    transform: translateY(18px);
+}
+main>div.panjomi>a>div:nth-of-type(1)>div:nth-of-type(3){
+    display: inline-block;
+    background-color: #39AE00;
+    width: 114px;
+    height: 32px;
+    margin: 0 20px;
+    transform: translateY(-25px);
+    line-height: 32px;
+    color: white;
+    border-radius: 15px;
+    font-size: 14px;
+}
+main>div.panjomi>a>div:nth-of-type(2){
+    width: 500px;
+    height: 80px;
+    float: right;
+    transform: translate(-50px,20px);
+    /* background-color: blueviolet; */
+}
+main>div.panjomi>a>div:nth-of-type(2)>div{
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: white;
+    text-align: center;
+    
+}
+main>div.panjomi>a>div:nth-of-type(2)>div>img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    transform: translateY(5px);
+}
+main>div.panjomi>a>div:nth-of-type(2)>div>div{
+    width: 30px;
+    height: 20px;
+    background-color: crimson;
+    border-radius: 15px;
+    transform: translate(5px,-15px);
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+}
+main>div.panjomi>a>div:nth-of-type(3){
+    width: 150px;
+    height: 50px;
+    float: left;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 50px;
+    transform: translate(20px,35px);
+}
+main>div.panjomi>a>div:nth-of-type(3)>span{
+    color: green;
+    font-size: 12px;
+    vertical-align: top;
+}
+main>div.panjomi>a>div:nth-of-type(3)>svg{
+ transform: translateY(8px);   
+}
+
+/* end div panjomi */
+
+/* start div shishomi */
+
+main>div.shishomi{
+    height: 236px;
+    text-align: center;
+    margin-top: 30px;
+}
+main>div.shishomi>a{
+    text-decoration: none;
+}
+main>div.shishomi>a>div{
+    display: inline-block;
+    width: 314px;
+    height: inherit;
+    margin: 0 4px;
+}
+main>div.shishomi>a>div>img{
+    width: 314px;
+    height: inherit;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+/* end div shishomi */
+
+/* start div haftomi */
+
+main>div.haftomi{
+    height: 576px;
+    /* background-color: blueviolet; */
+    margin-top: 30px;
+}
+main>div.haftomi>div:nth-of-type(1){
+    width: 100%;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+}
+main>div.haftomi>div:nth-of-type(1)>span{
+    font-size: 22px;
+}
+main>div.haftomi>a{
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    height: 212px;
+    margin-top: 30px;
+}
+main>div.haftomi>a>div{
+    width: 100%;
+    height: 212px;
+    /* background-color: red; */
+    text-align: center;
+}
+main>div.haftomi>a>div>div{
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    margin: 0 16px;
+}
+main>div.haftomi>a>div>div>img{
+    width: 180px;
+    height: 180px;
+}
+main>div.haftomi>a>div>div>p{
+    font-size: 11px;
+    color: #080A38;
+    font-weight: bold;
+}
+
+
