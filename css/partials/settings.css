@@ -13,6 +13,9 @@
 :root{
     --color-low-emphasis:#9e9fb1;
 }
+html,body{
+    scroll-behavior: smooth;
+}
 body{
     font-family: iranyekan;
 }
@@ -22,5 +25,5 @@ body{
     border-radius: 15px;
 }
 .footer-container{
-    margin-right: 8px;
+    transform: translateX(-20px);
 }
