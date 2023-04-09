@@ -957,3 +957,7 @@ div.chap .swiper-slide:nth-child(13)>a>div>div:nth-of-type(2)>span{
     display: inline-block;
     font-weight: bold;
   }
+  main>div.slider-dovvom>a>div.rast>div.three>i{
+    color: white;
+    font-size: 10px;
+  }

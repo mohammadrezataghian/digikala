@@ -34,6 +34,11 @@ footer>div.n-1>div:nth-of-type(2)>a>span{
     transform: translateX(-10px);
     color: #a7b6d2;
 }
+footer>div.n-1>div:nth-of-type(2)>a>i{
+    color: #a7b6d2;
+    font-size: 12px;
+    transform: translateX(-15px);
+}
 /* end n-1 */
 
 /* start n-2 */
